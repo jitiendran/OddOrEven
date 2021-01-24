@@ -1,0 +1,43 @@
+h1{
+    padding: 1em;
+    text-align: center;
+    #odd-name{
+        color: rgb(247, 21, 66);
+    }
+    #even-name{
+        color: cornflowerblue;
+    }
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    .row1{
+        h3{
+            padding: 1em;
+            text-decoration: underline;
+            text-decoration-color: cornflowerblue;
+            text-decoration-thickness: 3px;
+        }
+        margin-left: 5em;
+        margin-right: 4em;
+    }
+    .row2{
+        h3{
+            padding: 1em;
+            text-decoration: underline;
+            text-decoration-color: rgb(247, 21, 66);
+            text-decoration-thickness: 3px;
+        }
+    }
+    .row1,.row2{
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        width: 40%;
+        text-align: center;
+        border: 2px solid gainsboro;
+        border-radius: .5em;
+        margin-bottom: 3em;
+    }
+}

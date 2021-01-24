@@ -1,0 +1,41 @@
+.btn{
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    button{
+        font-size: 1.3em;
+        // transition: .2s;
+        padding: .7em;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: .3em;
+        font-weight: 500;
+        color: #fff;
+        &:hover{
+            transition: all .1s;
+            transform: scale(1.02);
+        }
+    }
+    #start{
+        margin-right: 6em;
+        background: rgb(118, 250, 118);
+        &:hover{
+            background: darken($color: rgb(118, 250, 118), $amount: 10%);
+        }
+    }
+    #pause{
+        margin-right: 6em;
+        background: rgb(250, 139, 94);
+        &:hover{
+            background: darken($color: rgb(250, 139, 94), $amount: 10%);
+        }
+    }
+    #reset{
+        background: cornflowerblue;
+        &:hover{
+            background: darken($color: cornflowerblue, $amount: 10%);
+        }
+    }
+
+}
